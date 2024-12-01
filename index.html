@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca de Atlatida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.avif" alt="">
+            <p>Você encontra um velho diário mencionando um mapa perdido que leva a Atlântida. </p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Maceió</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O diário menciona que uma pista importante pode estar escondida no litoral carioca.</p>
+            <button class="btn-proximo" data-proximo="3">Ir até o litoral carioca e procuarar pistas</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Um historiador em Maceió pode ter informações sobre o mapa e sua possível localização.</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para Maceió, onde um historiador local pode ter informações.</button>
+            <button class="btn-proximo" data-proximo="6">Explorar por conta própria</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você encontra pistas que te levam até o Oceano Atlântico </p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Oceano Atlântico</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/Atlantida.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>O historiador fala que as ultimas pistas foram encontras no Oceano Atlântico,.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Oceano Atlântico</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você não encontra nada e decide procurar o historiador.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e procurar o historiador</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>No Oceano Atlântico, a busca pela cidade submersa se intensifica. Você se depara com uma equipe de mergulho e uma equipe com um submarino, ambos com o mesmo destino que o seu.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir com a equipe do submarino</button>
+            <button class="btn-proximo" data-proximo="10">Seguir com a equipe de mergulho</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Encontrando historiador ele sugere que você viaje para o Oceano Atlântico,</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Oceano Atlântico,</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>A equipe com o submarino leva você até Atlantida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar Atlântida</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você percebe que a pressão da água é muito forte.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e ir com o submarino</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario12-atlantida.png" alt="encontrando uma cidade maravilhosa perdida no Oceano Atlântico">
+            <p>Chegando na cidadade submersa você descobre uma civilização aquática.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Você retorna para a equipe do submarino e vaiaja até a Atlântida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar Atlântida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+</html>
